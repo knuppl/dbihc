@@ -1,0 +1,11 @@
+Model Information:
+* title:	Saiyajin Spacepod
+* source:	https://sketchfab.com/3d-models/saiyajin-spacepod-88468168d981471fbda34c074e668dfe
+* author:	Gonzalo Sánchez (https://sketchfab.com/gonz45c)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Saiyajin Spacepod" (https://sketchfab.com/3d-models/saiyajin-spacepod-88468168d981471fbda34c074e668dfe) by Gonzalo Sánchez (https://sketchfab.com/gonz45c) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cell
+* source:	https://sketchfab.com/3d-models/cell-b5c32aead2cd487098073914c8b1c7dd
+* author:	lishenlong (https://sketchfab.com/lishenlong)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cell" (https://sketchfab.com/3d-models/cell-b5c32aead2cd487098073914c8b1c7dd) by lishenlong (https://sketchfab.com/lishenlong) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

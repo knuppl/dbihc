@@ -1,0 +1,76 @@
+extends layout
+
+block content
+  a-scene(cursor='rayOrigin: mouse' raycaster="objects: .raycastable")
+    a-camera(position="0 1.6 0" look-controls keybord-controls) 
+      //a-cursor(id="cursor" raycaster="objects: .clickable" position="0 0 -1") 
+
+    a-sky(color="#6EBAA7")
+      a-sound(src="sounds/cellgames.mp3" autoplay="true" loop="true" id="som")
+    
+    a-assets
+      a-asset-item(id="goku-obj" src="models/goku/Goku.obj")
+      a-asset-item(id="goku-mtl" src="models/goku/Goku.mtl")
+      a-asset-item(id="ten-obj" src="models/ten/Tien.obj")
+      a-asset-item(id="ten-mtl" src="models/ten/Tien.mtl")
+      a-asset-item(id="piccolo-obj" src="models/piccolo/Piccolo.obj")
+      a-asset-item(id="piccolo-mtl" src="models/piccolo/Piccolo.mtl")
+      a-asset-item(id="gohan-obj" src="models/gohan/Gohan.obj")
+      a-asset-item(id="gohan-mtl" src="models/gohan/Gohan.mtl")
+      a-asset-item(id="trunks-obj" src="models/trunks/Trunks.obj")
+      a-asset-item(id="trunks-mtl" src="models/trunks/Trunks.mtl")
+
+
+    a-gltf-model(src="models/cellarena/scene.gltf" position="0 0 0" scale="2.0 2.0 2.0") 
+    a-gltf-model(src="models/vegeta/scene.gltf" position="-5.696 0.232 19" rotation="0 90 0" scale="0.5 0.5 0.5")
+    a-gltf-model(src="models/cell/scene.gltf" position="0.888 1.351 17.848" rotation="0 -110 0" scale="0.35 0.35 0.35")    
+    a-gltf-model(
+    src="models/gokussj/scene.gltf"
+    id="gokussj"
+    name="gokussj"
+    visible="false"
+    position="-0.5 0.563 17.952"
+    class="raycastable"
+    rotation="0 0 0"
+    scale="0.12 0.12 0.12"
+    audio
+    change)
+    
+    a-gltf-model(
+    src="models/gohanssj2/scene.gltf"
+    id="gohanssj2"
+    name="gohanssj2"
+    position="-0.5 0.563 17.952"
+    class="raycastable"
+    rotation="0 45 0"
+    scale="0.02 0.02 0.02"
+    visible="false"
+    final)
+    
+    a-gltf-model(
+      src="models/gokukamehameha/scene.gltf"
+      id="gokufinal"
+      name="gokufinal"
+      position="-0.5 0.8 17.952"
+      class="raycastable"
+      scale="0.2 0.2 0.2"
+      visible="false"
+      kamehameha
+    )
+    
+    a-entity(obj-model="obj: #goku-obj; mtl: #goku-mtl" id="goku" name="goku" position="-0.5 0.563 17.952" class="raycastable" rotation="0 90 0" scale="0.02 0.02 0.02" audio )
+    a-entity(obj-model="obj: #ten-obj; mtl: #ten-mtl" position="-5.696 0.232 21" rotation="0 90 0" scale="0.04 0.04 0.04")
+    a-entity(obj-model="obj: #piccolo-obj; mtl: #piccolo-mtl" position="-5.696 0.232 18" rotation="0 90 0" scale="0.15 0.15 0.15")
+    a-entity(
+    obj-model="obj: #gohan-obj; mtl: #gohan-mtl"
+    id="gohan"
+    name="gohan"
+    class="raycastable"
+    position="-5.696 0.232 17"
+    rotation="0 90 0"
+    scale="0.017 0.017 0.017"
+    change
+    final)
+    
+    a-entity(obj-model="obj: #kuririn-obj; mtl: #kuririn-mtl" position="-5.696 0.232 19" rotation="0 90 0" scale="0.7 0.7 0.7")
+    a-entity(obj-model="obj: #trunks-obj; mtl: #trunks-mtl" position="-5.696 0.232 20" rotation="0 90 0" scale="0.019 0.019 0.019")

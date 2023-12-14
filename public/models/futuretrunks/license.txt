@@ -1,0 +1,11 @@
+Model Information:
+* title:	Future trunks DBZ
+* source:	https://sketchfab.com/3d-models/future-trunks-dbz-973d2900de224a7395cc57e0ed51ac46
+* author:	martinjario (https://sketchfab.com/martinjario)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Future trunks DBZ" (https://sketchfab.com/3d-models/future-trunks-dbz-973d2900de224a7395cc57e0ed51ac46) by martinjario (https://sketchfab.com/martinjario) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
